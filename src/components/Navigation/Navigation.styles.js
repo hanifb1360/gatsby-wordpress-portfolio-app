@@ -1,7 +1,7 @@
-import styled from 'styled-components';
+import styled from "styled-components"
 
-export const NavigationWrapper = styled.nav`
-  font-family: 'Teko', Arial, Helvetica, sans-serif;
+export const Wrapper = styled.nav`
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   color: #212121;
   font-size: 1rem;
@@ -10,7 +10,7 @@ export const NavigationWrapper = styled.nav`
   display: none;
 
   .nav-active {
-    color: #ee2562;
+    color: #2596be;
   }
 
   @media (min-width: 992px) {
@@ -51,7 +51,7 @@ export const NavigationWrapper = styled.nav`
   }
 
   ul li a:hover {
-    color: #ee2562;
+    color: #2596be;
   }
 
   ul ul {
@@ -86,4 +86,4 @@ export const NavigationWrapper = styled.nav`
       opacity: 1;
     }
   }
-`;
+`

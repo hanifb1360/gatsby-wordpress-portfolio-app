@@ -1,6 +1,6 @@
-import styled from 'styled-components';
+import styled from "styled-components"
 
-export const FooterWrapper = styled.footer`
+export const Wrapper = styled.footer`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -9,9 +9,15 @@ export const FooterWrapper = styled.footer`
   color: #fff;
   text-align: center;
   height: 200px;
-
-  p {
-    margin: 0;
-    padding: 0;
-  }
-`;
+`
+export const Text = styled.p`
+  font-size: 16px;
+  font-weight: bold;
+  color: #2596be;
+  margin: 0;
+`
+export const Contact = styled.p`
+  font-size: 11px;
+  font-weight: normal;
+  color: #fff;
+`

@@ -1,12 +1,12 @@
-import styled from 'styled-components';
+import styled from "styled-components"
 
 export const Overlay = styled.div`
   width: 100%;
   height: 100%;
   position: fixed;
-  opacity: ${props => (props.menuOpen ? '1' : '0')};
+  opacity: ${props => (props.menuOpen ? "1" : "0")};
   transform: ${props =>
-    props.menuOpen ? 'translateX(0%)' : 'translateX(-100%)'};
+    props.menuOpen ? "translateX(0%)" : "translateX(-100%)"};
   z-index: 100000;
   background: #fff;
   left: 0px;
@@ -18,14 +18,14 @@ export const Overlay = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: #000;
+    background: #154c79;
     width: 100%;
     height: 100%;
     color: #fff;
     padding: 40px;
 
     .invertedLogo {
-      max-width: 200px;
+      max-width: 100px;
       margin: 0 0 60px 0;
     }
 
@@ -39,18 +39,18 @@ export const Overlay = styled.div`
       }
 
       li.overlayActive {
-        color: #ee2562;
+        color: #2596be;
       }
 
       a {
-        font-family: 'Teko', Arial, Helvetica, sans-serif;
+        font-family: "Teko", Arial, Helvetica, sans-serif;
         font-size: 2rem;
         color: #fff;
         transition: all 0.3s ease;
         text-decoration: none;
 
         :hover {
-          color: #ee2562;
+          color: #2596be;
         }
       }
     }
@@ -71,4 +71,4 @@ export const Overlay = styled.div`
       transform: rotate(180deg);
     }
   }
-`;
+`
